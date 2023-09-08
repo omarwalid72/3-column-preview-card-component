@@ -77,3 +77,9 @@ height: 100vh;
   padding: 10px;
 
 }
+@media(max-width:767px){
+  .container{
+    flex-direction: column;
+    height: 800px;
+  }
+}
