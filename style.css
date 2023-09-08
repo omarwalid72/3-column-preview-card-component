@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.container{
+  display: flex;
+  max-width: 1200px;
+}
+.container .box{
+  height: 400px;
+  width:200px;
+  padding: 50px;
+}
+.container .box img{
+  margin-bottom: 30px;
+}
+.container .box h2{
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 30px;
+}
+.container .box p{
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 13px;
+  margin-bottom: 70px;
+  width: 190px;
+  line-height: 2;
+}
+.container .box button{
+  border-style: none;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  padding: 20px;
+  background-color: white;
+  font-weight: bold;
+}
+.container .box button:hover{
+  background-color: transparent;
+  color: white;
+}
+.container .box1{
+  background-color: hsl(31, 77%, 52%);
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+}.container .box2{
+  background-color: hsl(184, 100%, 22%);
+}.container .box3{
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+  background-color: hsl(179, 100%, 13%)
+}
+.container .box1 button{
+  color: hsl(31, 77%, 52%);
+  padding: 10px;
+}
+
+
+.container .box2 button{
+  color: hsl(184, 100%, 22%);
+  padding: 10px;
+
+}.container .box3 button{
+  color: hsl(179, 100%, 13%);
+  padding: 10px;
+
+}
